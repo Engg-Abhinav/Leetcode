@@ -9,6 +9,6 @@ class Solution {
             reverse = reverse*10 + number%10;
             number/=10;
         }
-        return x == reverse
+        return x == reverse;
     }
 }
